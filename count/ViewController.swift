@@ -23,7 +23,7 @@ class ViewController: UIViewController {
     @IBOutlet var label:UILabel!
     
     @IBAction func p(){
-        number = number+1
+        number = number+10
         label.text = String(number)
     }
 
