@@ -19,7 +19,13 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    var number: Int = 0
+    @IBOutlet var label:UILabel!
+    
+    @IBAction func p(){
+        number = number+1
+        label.text = String(number)
+    }
 
 }
 
